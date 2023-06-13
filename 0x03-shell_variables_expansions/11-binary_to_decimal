@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((2#BINARY)o)
+echo "Base 10 conversion: $((2#$BINARY))"

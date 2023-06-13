@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Base 10 conversion: $((2#$BINARY))"
+echo "$BINARY" | while read -r num; do echo "Base 10 conversion: $((2#$num))"; done
